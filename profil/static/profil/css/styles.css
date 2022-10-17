@@ -1,0 +1,96 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(177, 234, 197);
+}
+
+
+nav{
+    background-color: rgb(137, 222, 167);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li a{
+    padding: 10px 10px;
+}
+
+nav .menu li{
+    list-style: none;
+    padding: 10px;
+    position: relative;
+    display: block;
+}
+
+nav .menu li a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav .menu li:hover{
+    background-color: rgb(156, 227, 181);
+    border-radius: 10px;
+}
+
+nav .menu .dropdown{
+    display: none;
+}
+
+/* nav .menu .dropdown .cabang{
+    display: none;
+    position: absolute;
+    top: 60px;
+} */
+
+nav ul li:hover .dropdown{
+    display: block;
+    background-color: rgb(134, 219, 164);
+    position: fixed;
+    border-radius: 5px;
+    margin-top: 12px;
+    padding: 8px;
+}
+
+.isi{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    box-sizing: content-box;
+    background: rgb(117, 194, 144);
+    padding: 15px;
+    margin: 50px;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+}
+
+.gambar{
+    width: 70%;
+    max-width: 300px;
+    margin: 20px 0px;
+
+}
+
+.content{
+    list-style: number;
+    text-align: left;
+    padding: 30px;
+    margin: 50px;
+}
+
