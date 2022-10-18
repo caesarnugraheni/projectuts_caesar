@@ -27,39 +27,34 @@
 
 <center>
 <div class="gambar">
+        <img src="{% static 'images/banner2.png' %}" alt="" width="50%" height="50%">
+</div>
+
+<div class="isi">
+    <center>
+        <h2>Belajar Django 2.2</h2><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Cj89fGNiMSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
     
-        <img src="{% static 'images/banner2.png' %}" alt="" width="100%" height="100%">
-        
-</div>
-
-
-
-<div class="container">
-    <div class="row">
-        <div class="col-md-100">
-            <table class="table tables-bordered table-striped">
-                <thead>
-                    <tr>
-                        <th>MATERI PELAJARAN</th>
-                        <th>VIDEO PEMBELAJARAN</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    
-                    {% for materi in materis %}
-                        <tr>
-                            <td>{{ materi.nama_materi }}</td>
-                            <td>{{ materi.link_video }}</td>
-                        </tr>
-                    {% endfor %}
-                        
-                </tbody>
-            </table>
-        </div>
+        <h2>Pendahuluan Statistika</h2><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oywAnDqJBvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    
+        <h2>Metode Simplex</h2><br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jWvDkCF_IlE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+    </center>
     </div>
-</div>
-</center>
 
+
+<!-- <div class="isi">
+<center>
+    <a href="/materi/materi.html">
+    <img src="{% static 'images/math.png' %}" height="200px" alt=""><br></a>
+    <h3>Materi Pembelajaran</h3><br>
+
+    <a href="/materi/video.html">
+    <img src="{% static 'images/vid.png' %}" height="200px" alt=""><br></a>
+    <h3>Video Pembelajaran</h3>
+</center>
+</div> -->
 
     <script src="{% static 'js/bootstrap.js' %}" type="text/javascript"></script>
     <script src="{% static 'js/bootstrap.min.js' %}" type="text/javascript"></script>
